@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Profile</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .profile-card {
+      width: 100%;
+      max-width: 420px;
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile-img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #2a5298;
+      margin-bottom: 15px;
+    }
+
+    .profile-card h1 {
+      font-size: 28px;
+      color: #222;
+      margin-bottom: 8px;
+    }
+
+    .profile-card h3 {
+      font-size: 18px;
+      color: #2a5298;
+      margin-bottom: 15px;
+    }
+
+    .profile-card p {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .info {
+      text-align: left;
+      margin: 20px 0;
+    }
+
+    .info div {
+      background: #f4f6f8;
+      padding: 12px 15px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      color: #333;
+      font-size: 14px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .skills span {
+      background: #2a5298;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 25px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .btn-primary {
+      background: #2a5298;
+      color: white;
+    }
+
+    .btn-secondary {
+      border: 2px solid #2a5298;
+      color: #2a5298;
+    }
+
+    .btn-primary:hover {
+      background: #1e3c72;
+    }
+
+    .btn-secondary:hover {
+      background: #2a5298;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="profile-card">
+    <img src="D:\Profile-Website\D:\Profile-Website\Rutik.jpeg.jpeg" alt="Profile Photo" class="profile-img">
+
+    <h1>Rutik Bhalke</h1>
+    <h3>Web Developer</h3>
+
+    <p>
+      I am a passionate web developer interested in creating modern,
+      responsive, and user-friendly websites and applications.
+    </p>
+
+    <div class="info">
+      <div><strong>Email:</strong> rutikbhalke20@gmail.com</div>
+      <div><strong>Phone:</strong> +91 9699353648</div>
+      <div><strong>Location:</strong>Sangamner,Maharashtra, India</div>
+    </div>
+
+    <h3>Skills</h3>
+
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Java</span>
+      <span>Python</span>
+      <span>.NET</span>
+      <span>GitHub</span>
+      <span>React</span>
+    </div>
+
+    <div class="buttons">
+      <a href="mailto:rutikbhalke20@gmailcom" class="btn-primary">Contact Me</a>
+      <a href="#" class="btn-secondary">View Resume</a>
+    </div>
+  </div>
+
+</body>
+</html>
