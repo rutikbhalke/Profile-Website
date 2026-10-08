@@ -150,12 +150,9 @@
     <div class="skills">
       <span>HTML</span>
       <span>CSS</span>
-      <span>JavaScript</span>
       <span>Java</span>
       <span>Python</span>
       <span>.NET</span>
-      <span>GitHub</span>
-      <span>React</span>
     </div>
 
     <div class="buttons">
